@@ -4,6 +4,7 @@ We want to send notifications via different channels (Email, SMS, WhatsApp, etc.
 
 ✅ SOLID Principles Covered
 Principle	How it’s followed
+
 S – Single Responsibility	Each class has only one reason to change
 O – Open/Closed	New notification types can be added without modifying existing code
 L – Liskov Substitution	Derived classes can replace base class safely
@@ -13,6 +14,7 @@ D – Dependency Inversion	High-level module depends on abstraction, not concret
 
 
 🔍 How This Code Follows SOLID (Quick Explanation)
+
 🟢 S – Single Responsibility
 
 EmailNotification → only sends emails
